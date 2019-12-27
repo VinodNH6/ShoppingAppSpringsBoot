@@ -1,4 +1,4 @@
 # ShoppingAppSpringsBoot
 
 > git config  --global user.email ""
-> it config --global user.name ""
+> git config --global user.name ""
