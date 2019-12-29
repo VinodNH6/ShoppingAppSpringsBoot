@@ -3,6 +3,7 @@ package demo;
 import org.springframework.boot.SpringApplication;
 import org.springframework.boot.autoconfigure.SpringBootApplication;
 
+import demo.shoppingApp.RestUI;
 import demo.shoppingApp.StartUI;
 
 @SpringBootApplication
@@ -12,6 +13,7 @@ public class HelloWorld {
 		
 		SpringApplication.run(HelloWorld.class, args);
 	
+		new RestUI();
 		new StartUI();
 	}
 
